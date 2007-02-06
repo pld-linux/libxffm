@@ -1,0 +1,12 @@
+diff -urN libxffm-4.5.0/libxffm.pc.in libxffm-4.5.0.new/libxffm.pc.in
+--- libxffm-4.5.0/libxffm.pc.in	2006-05-20 03:36:27.000000000 +0200
++++ libxffm-4.5.0.new/libxffm.pc.in	2007-02-05 21:20:59.000000000 +0100
+@@ -6,7 +6,7 @@
+ 
+ Name: libxffm 
+ Description: Basic xffm filemanagement libraries and modules.
+-Requires: libtubo dbh-1.0 
++Requires: libtubo dbh
+ Version: @VERSION@
+ Libs: -Wl,-R${libdir} -L${libdir} -lxffm_primary -lxffm_secondary -lxffm_actions -lX11
+ Cflags: -I${includedir}
