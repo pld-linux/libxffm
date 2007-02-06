@@ -1,0 +1,11 @@
+diff -urN libxffm-4.5.0/libs/Makefile.am libxffm-4.5.0.new/libs/Makefile.am
+--- libxffm-4.5.0/libs/Makefile.am	2006-05-23 23:04:09.000000000 +0200
++++ libxffm-4.5.0.new/libs/Makefile.am	2007-02-05 23:55:43.000000000 +0100
+@@ -93,6 +93,7 @@
+ COMMON_LDFLAGS = -export-dynamic -version-info @LIBXFFM_VERINFO@
+ 
+ libxffm_primary_la_LDFLAGS = $(COMMON_LDFLAGS)
++libxffm_primary_la_LIBADD = $(LIBX11_LIBS)
+ libxffm_secondary_la_LDFLAGS = $(COMMON_LDFLAGS)
+ libxffm_actions_la_LDFLAGS = $(COMMON_LDFLAGS)
+ 
