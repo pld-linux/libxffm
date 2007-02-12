@@ -1,5 +1,5 @@
 Summary:	Filemanagement library for the xffm applications
-Summary(pl.UTF-8):   Biblioteka zarządzania plików dla aplikacji xffm
+Summary(pl.UTF-8):	Biblioteka zarządzania plików dla aplikacji xffm
 Name:		libxffm
 Version:	4.5.0
 Release:	1
@@ -30,7 +30,7 @@ aplikacje xffm.
 
 %package devel
 Summary:	Header files for libxffm library
-Summary(pl.UTF-8):   Pliki nagłówkowe dla biblioteki libxffm
+Summary(pl.UTF-8):	Pliki nagłówkowe dla biblioteki libxffm
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	dbh-devel >= 4.5.0
