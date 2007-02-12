@@ -1,5 +1,5 @@
 Summary:	Filemanagement library for the xffm applications
-Summary(pl):	Biblioteka zarz±dzania plikÛw dla aplikacji xffm
+Summary(pl.UTF-8):   Biblioteka zarzƒÖdzania plik√≥w dla aplikacji xffm
 Name:		libxffm
 Version:	4.5.0
 Release:	1
@@ -24,13 +24,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 libxffm is the basic filemanagement library used by xffm applications.
 
-%description -l pl
-libxffm jest podstawow± bibliotek± zarz±dzania plikÛw uøywan± przez
+%description -l pl.UTF-8
+libxffm jest podstawowƒÖ bibliotekƒÖ zarzƒÖdzania plik√≥w u≈ºywanƒÖ przez
 aplikacje xffm.
 
 %package devel
 Summary:	Header files for libxffm library
-Summary(pl):	Pliki nag≥Ûwkowe dla biblioteki libxffm
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe dla biblioteki libxffm
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	dbh-devel >= 4.5.0
@@ -39,8 +39,8 @@ Requires:	libtubo-devel >= 4.5.0
 %description devel
 Header files for libxffm library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe dla biblioteki libxffm.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe dla biblioteki libxffm.
 
 %prep
 %setup -q
