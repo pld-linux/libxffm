@@ -18,6 +18,8 @@ BuildRequires:	gtk+2-devel >= 2:2.6.0
 BuildRequires:	librsvg-devel
 BuildRequires:	libtool
 BuildRequires:	libtubo-devel >= 4.5.0
+BuildRequires:	libxml2-devel >= 2.4.0
+BuildRequires:	pkgconfig
 BuildRequires:	xfce4-icon-theme >= 4.4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
