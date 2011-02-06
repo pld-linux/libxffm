@@ -70,7 +70,7 @@ mv -f $RPM_BUILD_ROOT%{_datadir}/locale/pt{_PT,}
 %find_lang %{name}
 
 %clean
-rm -rf $RPM_BUILD_ROOTs
+rm -rf $RPM_BUILD_ROOT
 
 %post	-p /sbin/ldconfig
 %postun	-p /sbin/ldconfig
